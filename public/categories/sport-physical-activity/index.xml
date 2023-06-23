@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sport &amp; physical activity on Nicci Potts | Blog</title>
+    <link>https://niccipotts.netlify.app/categories/sport-physical-activity/</link>
+    <description>Recent content in Sport &amp; physical activity on Nicci Potts | Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 04 Oct 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://niccipotts.netlify.app/categories/sport-physical-activity/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The deprivation-related sport gap</title>
+      <link>https://niccipotts.netlify.app/blog/deprivationandsport/</link>
+      <pubDate>Mon, 04 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://niccipotts.netlify.app/blog/deprivationandsport/</guid>
+      <description>&lt;p&gt;Exploring why people who live in more deprived areas are less likely to take part in sport and physical activity.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Scotland&#39;s physical activity levels</title>
+      <link>https://niccipotts.netlify.app/blog/physicalactivitylevels/</link>
+      <pubDate>Wed, 08 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://niccipotts.netlify.app/blog/physicalactivitylevels/</guid>
+      <description>&lt;p&gt;Is Scotland becoming a more physically active nation? In short, yes-ish.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

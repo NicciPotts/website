@@ -1,0 +1,89 @@
+baseURL: https://niccipotts.netlify.app/
+languageCode: en-us
+title: Nicci Potts | Blog
+theme: liva-hugo
+summaryLength: '10'
+paginate: 6
+disqusShortname: ''
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+params:
+  author: Nicci Potts
+  cookies:
+    enable: no
+    expire_days: 2
+  copyright: '| copyright &copy; 2021 [Themefisher](https://themefisher.com/hugo-themes/)
+    All Rights Reserved |'
+  description: This is meta description
+  email: niccipottsis@outlook.com
+  googleAnalitycsID: 'UA-207052046-1'
+  home: Home
+  location: Scotland, UK
+  logo: images/mylogo.png
+  # newsletter:
+  #   content: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
+  #     eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+  #     At vero
+  #   enable: yes
+  #   title: Join Our Newsletter
+  plugins:
+    css:
+      - URL: plugins/bootstrap/bootstrap.min.css
+      - URL: plugins/slick/slick.css
+      - URL: plugins/themify-icons/themify-icons.css
+      - URL: plugins/venobox/venobox.css
+    js:
+      - URL: plugins/jQuery/jquery.min.js
+      - URL: plugins/bootstrap/bootstrap.min.js
+      - URL: plugins/slick/slick.min.js
+      - URL: plugins/venobox/venobox.min.js
+      - URL: plugins/search/fuse.min.js
+      - URL: plugins/search/mark.js
+      - URL: plugins/search/search.js
+  preloader:
+    enable: yes
+    preloader: ''
+  search:
+    enable: yes
+  social:
+    - icon: ti-twitter-alt
+      link: 'https://twitter.com/nicci_potts'
+      title: twitter
+    - icon: ti-instagram
+      link: 'https://www.instagram.com/we_three_adventure/?hl=en'
+      title: instagram
+    - icon: ti-github
+      link: 'https://github.com/NicciPotts'
+      title: github
+    - icon: ti-linkedin
+      link: 'https://www.linkedin.com/in/nicci-potts-362b2b171/'
+      title: linkedin
+menu:
+  footer:
+    - URL: about
+      name: About
+      weight: 1
+    - URL: blog
+      name: Blog
+      weight: 2
+    - URL: contact
+      name: Contact
+      weight: 3
+  main:
+    - URL: about
+      name: About
+      weight: 1
+    - URL: blog
+      name: Blog
+      weight: 2
+    - URL: contact
+      name: Contact
+      weight: 3
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true

@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en-us"><head>
+  <meta charset="utf-8">
+  <title>Nicci Potts | Blog</title>
+
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="this is meta description">
+  <meta name="author" content="Nicci Potts">
+  <meta name="generator" content="Hugo 0.87.0" />
+
+  <!-- plugins -->
+  
+  <link rel="stylesheet" href="https://niccipotts.netlify.app/plugins/bootstrap/bootstrap.min.css ">
+  
+  <link rel="stylesheet" href="https://niccipotts.netlify.app/plugins/slick/slick.css ">
+  
+  <link rel="stylesheet" href="https://niccipotts.netlify.app/plugins/themify-icons/themify-icons.css ">
+  
+  <link rel="stylesheet" href="https://niccipotts.netlify.app/plugins/venobox/venobox.css ">
+  
+
+  <!-- Main Stylesheet -->
+  
+  <link rel="stylesheet" href="https://niccipotts.netlify.app/scss/style.min.css" media="screen">
+
+  <!--Favicon-->
+  <link rel="shortcut icon" href="https://niccipotts.netlify.app/images/favicon.png " type="image/x-icon">
+  <link rel="icon" href="https://niccipotts.netlify.app/images/favicon.png " type="image/x-icon">
+
+  <!-- google analitycs -->
+  <script>
+    (function (i, s, o, g, r, a, m) {
+      i['GoogleAnalyticsObject'] = r;
+      i[r] = i[r] || function () {
+        (i[r].q = i[r].q || []).push(arguments)
+      }, i[r].l = 1 * new Date();
+      a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0];
+      a.async = 1;
+      a.src = g;
+      m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+    ga('create', 'UA-207052046-1', 'auto');
+    ga('send', 'pageview');
+  </script>
+
+</head><body>
+<!-- preloader start -->
+<div class="preloader">
+  
+</div>
+<!-- preloader end -->
+<!-- navigation -->
+<header class="navigation">
+  <div class="container">
+    
+    <nav class="navbar navbar-expand-lg navbar-white bg-transparent border-bottom pl-0">
+      <a class="navbar-brand mobile-view" href="https://niccipotts.netlify.app/"><img class="img-fluid"
+          src="https://niccipotts.netlify.app/images/mylogo.png" alt="Nicci Potts | Blog"></a>
+      <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navigation">
+        <i class="ti-menu"></i>
+      </button>
+
+      <div class="collapse navbar-collapse text-center" id="navigation">
+        <div class="desktop-view">
+          <ul class="navbar-nav mr-auto">
+            
+            <li class="nav-item">
+              <a class="nav-link" href="https://twitter.com/nicci_potts"><i class="ti-twitter-alt"></i></a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="https://www.instagram.com/we_three_adventure/?hl=en"><i class="ti-instagram"></i></a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="https://github.com/NicciPotts"><i class="ti-github"></i></a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="https://www.linkedin.com/in/nicci-potts-362b2b171/"><i class="ti-linkedin"></i></a>
+            </li>
+            
+          </ul>
+        </div>
+
+        <a class="navbar-brand mx-auto desktop-view" href="https://niccipotts.netlify.app/"><img class="img-fluid"
+            src="https://niccipotts.netlify.app/images/mylogo.png" alt="Nicci Potts | Blog"></a>
+
+        <ul class="navbar-nav">
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="https://niccipotts.netlify.app/about">About</a>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="https://niccipotts.netlify.app/blog">Blog</a>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="https://niccipotts.netlify.app/contact">Contact</a>
+          </li>
+          
+          
+        </ul>
+
+        
+        <!-- search -->
+        <div class="search pl-lg-4">
+          <button id="searchOpen" class="search-btn"><i class="ti-search"></i></button>
+          <div class="search-wrapper">
+            <form action="https://niccipotts.netlify.app//search" class="h-100">
+              <input class="search-box px-4" id="search-query" name="s" type="search" placeholder="Type & Hit Enter...">
+            </form>
+            <button id="searchClose" class="search-close"><i class="ti-close text-dark"></i></button>
+          </div>
+        </div>
+        
+
+        
+      </div>
+    </nav>
+  </div>
+</header>
+<!-- /navigation -->
+
+<section class="section-sm">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 mx-auto">
+        
+        <a href="/categories/r"
+          class="text-primary">R</a>
+        
+        <h2>Mapping social survey data</h2>
+        <div class="mb-3 post-meta">
+          <span>By Nicci Potts</span>
+          
+          <span class="border-bottom border-primary px-2 mx-1"></span>
+          <span>03 September 2021</span>
+          
+        </div>
+        
+        <img src="https://niccipotts.netlify.app/images/post/kidmap.jpg" class="img-fluid w-100 mb-4" alt="Mapping social survey data">
+        
+        <div class="content mb-5">
+          <p>In this post I will breakdown creating maps from survey data in R, particularly focused on the Scottish Household Survey.</p>
+<blockquote>
+<p>The Scottish Household Survey (SHS) is an annual, cross-sectional survey run by the Scottish Government. It provides detail on the composition, characteristics, attitudes and behaviour of private households and individuals. The SHS asks questions of a random sample of people in private residences in Scotland. Its large sample size allows analysis of all Scotland&rsquo;s 32 local authorities.</p>
+</blockquote>
+<p>There are multiple topics included in the survey, these are:</p>
+<ul>
+<li>demographics</li>
+<li>housing</li>
+<li>neighbourhoods</li>
+<li>economic activity</li>
+<li>finance</li>
+<li>internet</li>
+<li>physical activity</li>
+<li>local services</li>
+<li>environment</li>
+<li>volunteering</li>
+<li>culture</li>
+<li>childcare</li>
+</ul>
+<p>You can find out more information about the Scottish Household Survey on the <a href="https://www.gov.scot/collections/scottish-household-survey/">Scottish Government website.</a></p>
+<p><img src="../../images/post/climate.png" alt="Proportion of population of each local authority who agree that climate change is an immediate and urgent problem"></p>
+<h2 id="downloading--importing-the-data">Downloading &amp; importing the data</h2>
+<blockquote>
+<p>Pretty much everything I do in R starts with loading the <code>tidyverse</code> package.</p>
+</blockquote>
+<ol>
+<li>I want to explore the differences between local authorities for some of these topics. I, therefore, need a shapefile for the Scottish local authority boundaries.</li>
+</ol>
+<blockquote>
+<p>Don&rsquo;t worry if you haven&rsquo;t used shapefiles in R before, it&rsquo;s really not very scary!</p>
+</blockquote>
+<p>Local authority shape files can be downloaded from <a href="https://data.spatialhub.scot/dataset/local_authority_boundaries-is">Improvement service spatial data hub.</a></p>
+<p>To read these files install and load the <code>sf</code> and <code>rmapshaper</code> packages. <code>sf</code> to read the shapefiles and <code>rmapshaper</code> to simplify the shapes for quicker rendering.</p>
+<pre><code>LALayer &lt;- st_read(&quot;data/pub_las.shp&quot;, layer= &quot;pub_las&quot;) #import data
+LALayer &lt;- st_transform(LALayer, &quot;+init=epsg:4326&quot;) # convert to coordinate system
+SimpleLA &lt;- ms_simplify(LALayer) # simplify shape for quicker loading
+</code></pre><p>I&rsquo;m then going to use the <code>tmap</code> package to do a quick check that the shape files have loaded OK.</p>
+<pre><code>tm_shape(SimpleLA) +
+  tm_polygons()
+</code></pre><p>Now that I am happy with my grey map of Scotland with all 32 local authorities outlined I am going to download the SHS data.</p>
+<ol start="2">
+<li>Scotland&rsquo;s Household Survey data can be downloaded from the  <a href="https://scotland.shinyapps.io/sg-scottish-household-survey-data-explorer">Scottish Household Survey data explorer.</a></li>
+</ol>
+<p>The Shiny App has all the data from the survey broken down by topic and questions. The data has been cut in various different ways, often by sex, areas of deprivation, and age.</p>
+<p>I&rsquo;m going to look at three topics:</p>
+<ul>
+<li>finances</li>
+<li>climate change</li>
+<li>internet access</li>
+</ul>
+<p>I downloaded the csv files from the &lsquo;Data&rsquo; tab of the Shiny App (question 1 from topics 6, 7, and 10) then read them into R.</p>
+<pre><code>
+T6Q1 &lt;- read_csv(&quot;data/topic6question1.csv&quot;)
+
+T7Q1 &lt;- read_csv(&quot;data/topic7question1.csv&quot;, 
+                            col_types = cols(`2015` = col_double(), 
+                                             `2019` = col_double()))
+                                             
+T10Q1 &lt;- read_csv(&quot;data/topic10question1.csv&quot;, 
+                  col_types = cols(`2015` = col_double(), 
+                                   `2019` = col_double()))
+</code></pre><p><img src="../../images/post/internet.png" alt="Proportion of population of each local authority who have household internet access"></p>
+<h2 id="wrangling-the-data">Wrangling the data</h2>
+<p>Ultimately I want to merge the SHS data with the local authority shapefiles, to do that a wee bit of data wrangling is required! First I&rsquo;m going to rename the <code>Council</code> column to match the shapefile column of local authority names. I then renamed the two column years I want to use - this isn&rsquo;t necessary I just find it easier to work with character variables!</p>
+<pre><code>T6Q1 &lt;- T6Q1 %&gt;% rename(&quot;local_auth&quot; = Council,
+                &quot;twenty19&quot; = `2019`,
+                &quot;twenty15&quot; = `2015`)
+                
+T7Q1 &lt;- T7Q1 %&gt;% rename(&quot;local_auth&quot; = Council,
+                          &quot;twenty19&quot; = `2019`,
+                          &quot;twenty15&quot; = `2015`)               
+                
+                
+T10Q1 &lt;- T10Q1 %&gt;% rename(&quot;local_auth&quot; = Council,
+                          &quot;twenty19&quot; = `2019`,
+                          &quot;twenty15&quot; = `2015`)
+</code></pre><p>Then I&rsquo;m going to change the spelling of a few local authorities to match the spelling in the shapefiles.</p>
+<pre><code>T10Q1 &lt;- transform(T10Q1, local_auth = sub(&quot;&amp;&quot;, &quot;and&quot;, local_auth))
+T10Q1 &lt;- transform(T10Q1, local_auth = sub(&quot;Edinburgh, City of&quot;, &quot;City of Edinburgh&quot;, local_auth))
+T10Q1 &lt;- transform(T10Q1, local_auth = sub(&quot;Na h-Eileanan Siar&quot;, &quot;Eilean Siar&quot;, local_auth))
+</code></pre><p>Now my data is ready for me to investigate and start mapping!</p>
+<blockquote>
+<p>Prior to transforming the SHS data, I converted the shapefile into a dataframe then used <code>distinct()</code> to get the list of local authorities and their spelling.</p>
+</blockquote>
+<p>For my first map I want to see what proportion of each local authorities population agree that climate change is an immediate and urgent problem. I also want to see how perceptions have changed over time - I&rsquo;m expecting to see an increase in people viewing climate change as a problem over a 5 year period.</p>
+<pre><code>T10Q1_df1 &lt;- T10Q1 %&gt;% 
+  filter(X3 == 'Climate change is an immediate and urgent problem') %&gt;%
+  mutate(fiveyrdiff = twenty19-twenty15)
+</code></pre><p>In the second map I&rsquo;m interested in knowing what proportion of each local authority have access to home internet. Again, I want to see how this has changed over 5 years. Given the Scottish Government&rsquo;s recent initative to increase broadband in rural areas of Scotland, I&rsquo;m expecting to see lower internet access in the more rural local authorities.</p>
+<pre><code>T7Q1_df1 &lt;- T7Q1 %&gt;% 
+  select(local_auth, twenty15, twenty19, `Internet Access`) %&gt;%
+  filter(`Internet Access` == 'Yes') %&gt;%
+  mutate(fiveyrdiff = twenty19-twenty15)
+</code></pre><p>For the final map I only downloaded data for those who had responded that they were managing well financially. And again I wanted to see how this has changed over time.</p>
+<pre><code>T6Q1_df1 &lt;- T6Q1 %&gt;% 
+  select(local_auth, Status, twenty15, twenty19) %&gt;%
+  mutate(fiveyrdiff = twenty19-twenty15)
+</code></pre><p>The final stage of data wrangling, once I&rsquo;m happy my dataframes have the parameters I want to map, is to merge these with the local authority shape files.</p>
+<pre><code>T6Q1_map &lt;- merge(SimpleLA, T6Q1_df1, by= 'local_auth')
+</code></pre><p><img src="../../images/post/finance.png" alt="Proportion of population of each local authority who have household internet access"></p>
+<h2 id="creating-the-map">Creating the map</h2>
+<p>Now my data is downloaded, imported, and wrangled I&rsquo;m ready to start making maps!!</p>
+<blockquote>
+<p>For this blog I&rsquo;m using the <code>tmap</code> package, if I was creating these maps for a Shiny App I&rsquo;d use the <code>leaflet</code> package instead due to the added interactive element.</p>
+</blockquote>
+<p>To create the map for the 2019 data, I tell <code>tmap</code> what data I want to use, then add polygons defining the data and a palette.</p>
+<pre><code>tm_shape(T6Q1_map) +
+  tm_polygons(col = &quot;twenty19&quot;,
+              palette = &quot;PuBuGn&quot;,
+              title = '2019'
+  )
+</code></pre><p>To map the five year difference, I just change the column name.</p>
+<pre><code>tm_shape(T6Q1_map) +
+  tm_polygons(col = &quot;fiveyrdiff&quot;, 
+              palette = &quot;RdBu&quot;,
+              title = '5 yr change',
+  ) 
+</code></pre><blockquote>
+<p>To switch to any of the other topics I&rsquo;d just change the data under <code>tm_shape()</code> to T7Q1 or T10Q1 - remembering to create a merged shape file for each topic!</p>
+</blockquote>
+<p>One of the great things about <code>tmap</code> is it&rsquo;s rooted in ggplot, which means there is lots of opportunity for customisation. As I&rsquo;m creating multiple maps it&rsquo;s easier to write a function with the layout settings.</p>
+<pre><code>map_theme2 &lt;- function() {
+  tm_layout(
+    frame = TRUE,
+    bg.color = '#c95b0c',
+    &quot; Manages \n very well \n financially&quot;,
+    title.color = 'white',
+    title.size = 3,
+    legend.bg.color = TRUE,
+    legend.frame = FALSE,
+    legend.title.color = 'white',
+    fontfamily = 'dosis',
+    legend.position = c(&quot;left&quot;, &quot;bottom&quot;),
+    legend.text.color = 'white',
+    legend.text.size = 0.7
+  ) +
+    tm_credits(
+      &quot;Scottish Household Survey | @nicci_potts&quot;,
+      position = c(&quot;right&quot;, &quot;bottom&quot;),
+      col = 'white',
+      size = 0.8,
+      align = 'right'
+    )
+}
+</code></pre><p>And then the complete code for the map is below.</p>
+<pre><code>tm_shape(T6Q1_map) +
+  tm_polygons(col = &quot;twenty19&quot;,
+              palette = &quot;PuBuGn&quot;,
+              title = '2019',
+              labels = c(
+              '45 to 50 %',
+              '50 to 55 %',
+              '55 to 60 %',
+              '60 to 65 %',
+              '65 to 70 %',
+              '70 to 75 %'
+  ),
+              lwd = .25,
+              border.col = 'gray20'
+  ) + 
+  map_theme2()
+</code></pre><p>There you have it! Six different maps from Scottish Household Survey data using one set of shapefiles and a couple of downloaded csv files! Maps are a great way of bringing data to life. For me, seeing a stark colour contrast between local authorities jumps out quicker than if I was looking at a bar plot of all 32 local authorities.</p>
+<p>And having access to the depth of data about Scotland&rsquo;s households builds a deeper understanding of the nation we live in and helps a range of sectors target their provision.</p>
+<p>People&rsquo;s perceptions on climate change or their access to internet may seem relevant to only very specific scenarios. However, socio-economic factors have wide ranging impacts. In the sporting context, the move towards online coaching delivery may equate to disproportionate access to information across local authorities. Or a push to get more people using active travel may have greater impact in local authorities more concerned about climate change.</p>
+<p><em>Summary image by <a href="https://unsplash.com/@anniespratt?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Annie Spratt</a> on <a href="https://unsplash.com/s/photos/map?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></em></p>
+        </div>
+
+        
+        
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<footer class="text-capitalize">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-12 text-center mb-5">
+        <a href="https://niccipotts.netlify.app/"><img src="https://niccipotts.netlify.app/images/mylogo.png" alt="Nicci Potts | Blog"></a>
+      </div>
+               
+      <div class="col-lg-3 col-sm-6 mb-5">
+        <h6 class="mb-4">Contact Me</h6>
+        <ul class="list-unstyled">
+          
+                     
+          <li class="mb-3"><i class="ti-location-pin mr-3 text-primary"></i>Scotland, UK</li>
+          
+                     
+          <li class="mb-3"><a class="text-dark" href="mailto:niccipottsis@outlook.com"><i
+                class="ti-email mr-3 text-primary"></i>niccipottsis@outlook.com</a>
+          
+          </li>
+        </ul>
+      </div>
+      
+      <div class="col-lg-3 col-sm-6 mb-5">
+        <h6 class="mb-4">Social Contacts</h6>
+        <ul class="list-unstyled">
+          
+          <li class="mb-3"><a class="text-dark" href="https://twitter.com/nicci_potts">twitter</a></li>
+          
+          <li class="mb-3"><a class="text-dark" href="https://www.instagram.com/we_three_adventure/?hl=en">instagram</a></li>
+          
+          <li class="mb-3"><a class="text-dark" href="https://github.com/NicciPotts">github</a></li>
+          
+          <li class="mb-3"><a class="text-dark" href="https://www.linkedin.com/in/nicci-potts-362b2b171/">linkedin</a></li>
+          
+        </ul>
+      </div>
+      <div class="col-lg-3 col-sm-6 mb-5">
+        <h6 class="mb-4">Categories</h6>
+        <ul class="list-unstyled">
+          <li class="mb-3"><a class="text-dark"
+              href="/categories/r">R</a>
+          </li>
+          <li class="mb-3"><a class="text-dark"
+              href="/categories/sport-physical-activity">Sport physical activity</a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-lg-3 col-sm-6 mb-5">
+        <h6 class="mb-4">Quick Links</h6>
+        <ul class="list-unstyled">
+          
+          <li class="mb-3"><a class="text-dark" href="https://niccipotts.netlify.app/about">About</a></li>
+          
+          <li class="mb-3"><a class="text-dark" href="https://niccipotts.netlify.app/blog">Blog</a></li>
+          
+          <li class="mb-3"><a class="text-dark" href="https://niccipotts.netlify.app/contact">Contact</a></li>
+          
+        </ul>
+      </div>
+      <div class="col-12 border-top py-4 text-center">
+        | copyright © 2021 <a href="https://themefisher.com/hugo-themes/">Themefisher</a> All Rights Reserved |
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script>
+  var indexURL = "https://niccipotts.netlify.app/index.json"
+</script>
+
+<!-- JS Plugins -->
+
+<script src="https://niccipotts.netlify.app/plugins/jQuery/jquery.min.js"></script>
+
+<script src="https://niccipotts.netlify.app/plugins/bootstrap/bootstrap.min.js"></script>
+
+<script src="https://niccipotts.netlify.app/plugins/slick/slick.min.js"></script>
+
+<script src="https://niccipotts.netlify.app/plugins/venobox/venobox.min.js"></script>
+
+<script src="https://niccipotts.netlify.app/plugins/search/fuse.min.js"></script>
+
+<script src="https://niccipotts.netlify.app/plugins/search/mark.js"></script>
+
+<script src="https://niccipotts.netlify.app/plugins/search/search.js"></script>
+
+<!-- Main Script -->
+
+<script src="https://niccipotts.netlify.app/js/script.min.js"></script>
+
+
+
+</body>
+</html>

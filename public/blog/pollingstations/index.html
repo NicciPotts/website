@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en-us"><head>
+  <meta charset="utf-8">
+  <title>Nicci Potts | Blog</title>
+
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="this is meta description">
+  <meta name="author" content="Nicci Potts">
+  <meta name="generator" content="Hugo 0.87.0" />
+
+  <!-- plugins -->
+  
+  <link rel="stylesheet" href="https://niccipotts.netlify.app/plugins/bootstrap/bootstrap.min.css ">
+  
+  <link rel="stylesheet" href="https://niccipotts.netlify.app/plugins/slick/slick.css ">
+  
+  <link rel="stylesheet" href="https://niccipotts.netlify.app/plugins/themify-icons/themify-icons.css ">
+  
+  <link rel="stylesheet" href="https://niccipotts.netlify.app/plugins/venobox/venobox.css ">
+  
+
+  <!-- Main Stylesheet -->
+  
+  <link rel="stylesheet" href="https://niccipotts.netlify.app/scss/style.min.css" media="screen">
+
+  <!--Favicon-->
+  <link rel="shortcut icon" href="https://niccipotts.netlify.app/images/favicon.png " type="image/x-icon">
+  <link rel="icon" href="https://niccipotts.netlify.app/images/favicon.png " type="image/x-icon">
+
+  <!-- google analitycs -->
+  <script>
+    (function (i, s, o, g, r, a, m) {
+      i['GoogleAnalyticsObject'] = r;
+      i[r] = i[r] || function () {
+        (i[r].q = i[r].q || []).push(arguments)
+      }, i[r].l = 1 * new Date();
+      a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0];
+      a.async = 1;
+      a.src = g;
+      m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+    ga('create', 'UA-207052046-1', 'auto');
+    ga('send', 'pageview');
+  </script>
+
+</head><body>
+<!-- preloader start -->
+<div class="preloader">
+  
+</div>
+<!-- preloader end -->
+<!-- navigation -->
+<header class="navigation">
+  <div class="container">
+    
+    <nav class="navbar navbar-expand-lg navbar-white bg-transparent border-bottom pl-0">
+      <a class="navbar-brand mobile-view" href="https://niccipotts.netlify.app/"><img class="img-fluid"
+          src="https://niccipotts.netlify.app/images/mylogo.png" alt="Nicci Potts | Blog"></a>
+      <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navigation">
+        <i class="ti-menu"></i>
+      </button>
+
+      <div class="collapse navbar-collapse text-center" id="navigation">
+        <div class="desktop-view">
+          <ul class="navbar-nav mr-auto">
+            
+            <li class="nav-item">
+              <a class="nav-link" href="https://twitter.com/nicci_potts"><i class="ti-twitter-alt"></i></a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="https://www.instagram.com/we_three_adventure/?hl=en"><i class="ti-instagram"></i></a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="https://github.com/NicciPotts"><i class="ti-github"></i></a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="https://www.linkedin.com/in/nicci-potts-362b2b171/"><i class="ti-linkedin"></i></a>
+            </li>
+            
+          </ul>
+        </div>
+
+        <a class="navbar-brand mx-auto desktop-view" href="https://niccipotts.netlify.app/"><img class="img-fluid"
+            src="https://niccipotts.netlify.app/images/mylogo.png" alt="Nicci Potts | Blog"></a>
+
+        <ul class="navbar-nav">
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="https://niccipotts.netlify.app/about">About</a>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="https://niccipotts.netlify.app/blog">Blog</a>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="https://niccipotts.netlify.app/contact">Contact</a>
+          </li>
+          
+          
+        </ul>
+
+        
+        <!-- search -->
+        <div class="search pl-lg-4">
+          <button id="searchOpen" class="search-btn"><i class="ti-search"></i></button>
+          <div class="search-wrapper">
+            <form action="https://niccipotts.netlify.app//search" class="h-100">
+              <input class="search-box px-4" id="search-query" name="s" type="search" placeholder="Type & Hit Enter...">
+            </form>
+            <button id="searchClose" class="search-close"><i class="ti-close text-dark"></i></button>
+          </div>
+        </div>
+        
+
+        
+      </div>
+    </nav>
+  </div>
+</header>
+<!-- /navigation -->
+
+<section class="section-sm">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 mx-auto">
+        
+        <a href="/categories/r"
+          class="text-primary">R</a>
+        
+        <h2>Census data for person centered design</h2>
+        <div class="mb-3 post-meta">
+          <span>By Nicci Potts</span>
+          
+          <span class="border-bottom border-primary px-2 mx-1"></span>
+          <span>14 September 2021</span>
+          
+        </div>
+        
+        <img src="https://niccipotts.netlify.app/images/post/streetart.jpg" class="img-fluid w-100 mb-4" alt="Census data for person centered design">
+        
+        <div class="content mb-5">
+          <p>Mapping census data in R to show how we can use data to put people at the heart of decision making.</p>
+<p>At the risk of being repetitive, in this blog post I&rsquo;m going to be mapping social data for Scotland. This time, however, I&rsquo;m going to use Scotland&rsquo;s census data and the <code>leaflet</code> package.</p>
+<p>Census data is a gold-mine of information, and I want to show how it can be used as a tool when looking at where we place provisions and facilities.</p>
+<p>As an example, I&rsquo;m going to map the number of people with one or more long-term health conditions in each output area (read: neighbourhoods) and overlay this with the location of 2021 polling stations.</p>
+<blockquote>
+<p>The Electoral Commission states that everyone should be able to register and cast their vote without facing barriers. They should be able to vote on their own and in secret.</p>
+</blockquote>
+<h2 id="scotland-census-data">Scotland Census data</h2>
+<p>I have to be honest, I find the Scotland Census website an absolute maze and the process for accessing the data &hellip; non-trivial. But, I have cracked a method that works for me.</p>
+<p>There is a table builder but you have to manually enter output area codes (with no copy and pasting), a massively time consuming task if you want data for the whole of Scotland or even a whole local authority.</p>
+<blockquote>
+<p>Output areas are the lowest geographical level at which census estimates are provided. They have similar population sizes, approximately regular shapes, avoid mixing urban/rural postcodes, and are bound to a minimum size to retain confidentiality.</p>
+</blockquote>
+<p>So instead, I downloaded <strong>all</strong> the .csv spreadsheets from the <a href="https://www.scotlandscensus.gov.uk/documents/2011-census-table-data-output-area-2011/">bulk data download</a>! I know, not ideal given it&rsquo;s 5.5 GB but if you want to look across a range of demographics and localities then this is the process I&rsquo;d recommend. You do then have to do a bit of detective work to figure out what is in each sheet (a look-up table would be <em>very</em> handy!).</p>
+<blockquote>
+<p>The Scotland Census table is easier to use at a local authority level, especially as it saves your previous selections - making multiple data downloads easier.</p>
+</blockquote>
+<p>The flexible table builder for the 2022 census table looks a lot more user friendly so this process should be more streamlined when the next data set is released!</p>
+<h3 id="scotland-census-data-wrangling">Scotland census data wrangling</h3>
+<ol>
+<li>
+<p>Figure out what cut of the data you want to look at. In this blog I want to look at the breakdown of people with one or more long-term health conditions by output area.</p>
+</li>
+<li>
+<p>Go to the Scotland Census website, <a href="https://www.scotlandscensus.gov.uk/search-the-census#/topics/list?topic=Health&amp;categoryId=3">search by topic</a> and look for that breakdown. Under the title is an alpha-numeric code, this code relates to the name of the .csv file in the bulk data download.</p>
+</li>
+</ol>
+<div><img src="../../images/post/census_capture.PNG" width="60%"/></div>
+<ol start="3">
+<li>Having searched for and found the relevant .csv file, upload this into R - remembering to move the file into your R folder!</li>
+</ol>
+<pre><code>library(tidyverse)
+library(sf)
+library(rmapshaper)
+library(leaflet)
+
+Health &lt;- 
+   read_csv(&quot;data/QS304SC.csv&quot;)
+
+</code></pre><ol start="4">
+<li>Eventually we are going to merge this file with a shapefile for the output areas, I&rsquo;m cheating a little with this step-by-step guide as we haven&rsquo;t yet imported (or downloaded) the shapefile but <em>spoiler alert</em> we want to rename the column that contains the output area code.</li>
+</ol>
+<pre><code>
+Health &lt;- 
+   Health %&gt;% 
+   rename('code' = X1)
+
+</code></pre><ol start="5">
+<li>What I want to do is look at the absolute number of people with one or more long-term health conditions, and how this translates as a percentage of the output area population.</li>
+</ol>
+<pre><code>Health_df1 &lt;-
+  Health %&gt;% 
+  group_by(code) %&gt;%
+  mutate(abnum = `One or more conditions`,
+        pct = round(abnum / `All people` *100, 1)) %&gt;%
+  select(code, abnum, pct)
+
+</code></pre><ol start="6">
+<li>Now the data is wrangled we will need some geographical coordinates for the output areas to make a map. I downloaded the coastline clipped version of the output area shapefile from the <a href="https://www.nrscotland.gov.uk/statistics-and-data/geography/our-products/census-datasets/2011-census/2011-boundaries">National Records of Scotland.</a></li>
+</ol>
+<pre><code>
+OALayer &lt;-
+  st_read(&quot;data/OutputArea2011_MHW.shp&quot;,
+          layer = &quot;OutputArea2011_MHW&quot;)
+
+OALayer &lt;-
+  st_transform(OALayer, &quot;+init=epsg:4326&quot;)
+
+</code></pre><ol start="7">
+<li>I also use <code>rmapshaper</code> to simplify the shapefiles, just for quicker loading/rendering as the exact boundaries aren&rsquo;t too important to me at this stage.</li>
+</ol>
+<pre><code>SimpleOA &lt;-
+  ms_simplify(OALayer) 
+  
+</code></pre><ol start="8">
+<li>For this I am only going to look at the Ayrshires (North, South, and East) so rather than merge the entire shapefile and data, I filter the shapefile to the council codes of interest (I used <a href="https://www.opendata.nhs.scot/km/dataset/geography-codes-and-labels/resource/967937c4-8d67-4f39-974f-fd58c4acfda5">this table</a> to find the council codes). When the two files are merged it&rsquo;ll only merge the output areas for the filtered councils.</li>
+</ol>
+<pre><code>
+AyrshireOA &lt;- 
+    SimpleOA %&gt;% 
+    filter(council == c('S12000008', 
+                    'S12000021',
+                    'S12000028'))
+                    
+                    
+Health_shp &lt;- 
+  merge(AyrshireOA, Health_df1, by='code')
+
+</code></pre><p>And that&rsquo;s it! Nice and simple, right?</p>
+<p>I know this probably seems like a lot of work and prep to get to this stage, but once you&rsquo;ve put in the initial effort you will be set up to just switch out the census data.</p>
+<p>And I promise it&rsquo;ll all be worth the effort!</p>
+<h3 id="mapping-those-with-long-term-health-conditions">Mapping those with long-term health conditions</h3>
+<p>Before adding in the polling station data I think we&rsquo;ve earned a map to look at - so first we&rsquo;ll map the census data.</p>
+<ol>
+<li>We&rsquo;ll need to define a palette -</li>
+</ol>
+<pre><code>bin &lt;-
+  colorBin('Oranges', domain = Health_shp$abnum)
+</code></pre><ol start="2">
+<li>Then we can build the map! I&rsquo;m calling up the data in <code>addPolygon()</code> and <code>addLegend()</code> because my intention is to later add further layers from different data sources.</li>
+</ol>
+<blockquote>
+<p>There are much better <a href="https://rstudio.github.io/leaflet/">resources</a> out there for learning the in&rsquo;s and out&rsquo;s of the <code>leaflet</code> package, my intention is for you to be able to see the basics of this code being applied to this data set.</p>
+</blockquote>
+<pre><code>map &lt;- leaflet() %&gt;%
+  addTiles() %&gt;%
+  addPolygons(data = Health_shp, 
+              color= &quot;grey&quot;, 
+              weight = 0.75,  
+              smoothFactor = 0.5, 
+              opacity = 1.0,
+              fillColor = ~ bin(abnum), 
+              fillOpacity = 1, 
+              popup = ~paste(abnum),
+              highlightOptions = 
+              highlightOptions(color = &quot;white&quot;, 
+                               weight = 1)
+  ) %&gt;%
+  
+  addLegend(data = Health_shp, 
+            &quot;bottomright&quot;, 
+            pal = bin, 
+            values = ~ abnum, 
+            title = &quot;Absolute number &lt;/br&gt; 
+            of long-term illness &lt;/br&gt; population&quot;, 
+            opacity = 0.6 
+  )
+
+map
+
+
+</code></pre><div><img src="../../images/post/ayrshire_lth.png" width="100%"/></div>
+<h2 id="polling-station-data">Polling Station data</h2>
+<p>Now we know where people with a long-term health condition live across Ayrshire, let&rsquo;s see how this relates to polling stations from the 2021 Scottish Government election.</p>
+<blockquote>
+<p>Disabled people are more likely to vote by post (35%) compared to non-disabled people (19%).</p>
+</blockquote>
+<ol>
+<li>The polling station data for Scotland is downloaded from the <a href="https://data.spatialhub.scot/dataset/polling_places-is">spatiial hub</a> and imported into R.</li>
+</ol>
+<pre><code>
+PollLayer &lt;-
+  st_read(&quot;data/pub_polpl.shp&quot;, layer = &quot;pub_polpl&quot;)
+  
+PollLayer &lt;-
+  st_transform(PollLayer, &quot;+init=epsg:4326&quot;) 
+
+</code></pre><ol start="2">
+<li>Then the polling stations are filtered to only those in Ayrshire.</li>
+</ol>
+<pre><code>Ayrshire_Poll &lt;- 
+  PollLayer %&gt;% 
+  filter(local_auth %in% 
+           c('North Ayrshire', 
+             'South Ayrshire', 
+             'East Ayrshire'))
+</code></pre><ol start="3">
+<li>And finally we can add these to our map.</li>
+</ol>
+<pre><code>map %&gt;%
+  addCircleMarkers(data = Ayrshire_Poll)
+</code></pre><div><img src="../../images/post/ayrshire_polls.png" width="100%"/></div>
+<h3 id="how-do-we-use-this">How do we use this?</h3>
+<p>We know that:</p>
+<ul>
+<li>Disabled people are less likely to use public transport;</li>
+<li>And those with long-term health conditions are more likely to make short public transport journeys only.</li>
+<li>People with a long-term health condition are also less likely to have access to a vehicle (46% no car/van compared to 19% of those with no illness).</li>
+</ul>
+<blockquote>
+<p><a href="https://www.transport.gov.scot/publication/going-further-scotland-s-accessible-travel-framework/j448711-05/">Transport Scotland</a> have an insightful summary on some of the barriers for disabled people using public transport</p>
+</blockquote>
+<p>Of course, not all disabled people encounter barriers to travelling; however, in areas with high numbers of people with long-term illness and no nearby polling station:</p>
+<ul>
+<li>what is the voting rate of the general output area population?</li>
+<li>what is the voting rate of those with long-term health conditions?</li>
+</ul>
+<p>And then across Ayrshire -</p>
+<ul>
+<li>do areas with high absolute and relative numbers of people with long-term health conditions that also have polling stations, have higher voting rates?</li>
+</ul>
+<p>If voting rates are comparably lower amongst those with long-term health conditions and no local polling stations, could this indicate the locations of the polling stations aren&rsquo;t accessible to all?</p>
+<blockquote>
+<p>In 2017, those with limiting health conditions  were less likely to confidently report they would vote in the upcoming UK General Election.</p>
+</blockquote>
+<p>I should also state two other things:</p>
+<ol>
+<li>
+<p>I have no idea how the decision to locate polling stations is actually made, I imagine population figures and availability of suitable buildings plays a large role. I&rsquo;m using this data as an example only!</p>
+</li>
+<li>
+<p>Just because a polling station is physically located in an accessible place, it doesn&rsquo;t mean that the building nor the voting process itself is accessible</p>
+</li>
+</ol>
+<p>Polling stations can be replaced with any building, facility, or provision that is of interest, and the underlying census data can be a range of different demographics.</p>
+<p>This post is intended to provide a guide on how census can be an insightful tool when we want to build opportunities that intend to serve communities; by taking that first step and asking where and how? Where are the people we want to engage? And how do we reduce/remove any barriers to ensure equitable access to our service?</p>
+<p><em>Summary image by <a href="https://unsplash.com/@frankiefoto?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">frank mckenna</a> on <a href="https://unsplash.com/t/street-photography?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></em></p>
+        </div>
+
+        
+        
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<footer class="text-capitalize">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-12 text-center mb-5">
+        <a href="https://niccipotts.netlify.app/"><img src="https://niccipotts.netlify.app/images/mylogo.png" alt="Nicci Potts | Blog"></a>
+      </div>
+               
+      <div class="col-lg-3 col-sm-6 mb-5">
+        <h6 class="mb-4">Contact Me</h6>
+        <ul class="list-unstyled">
+          
+                     
+          <li class="mb-3"><i class="ti-location-pin mr-3 text-primary"></i>Scotland, UK</li>
+          
+                     
+          <li class="mb-3"><a class="text-dark" href="mailto:niccipottsis@outlook.com"><i
+                class="ti-email mr-3 text-primary"></i>niccipottsis@outlook.com</a>
+          
+          </li>
+        </ul>
+      </div>
+      
+      <div class="col-lg-3 col-sm-6 mb-5">
+        <h6 class="mb-4">Social Contacts</h6>
+        <ul class="list-unstyled">
+          
+          <li class="mb-3"><a class="text-dark" href="https://twitter.com/nicci_potts">twitter</a></li>
+          
+          <li class="mb-3"><a class="text-dark" href="https://www.instagram.com/we_three_adventure/?hl=en">instagram</a></li>
+          
+          <li class="mb-3"><a class="text-dark" href="https://github.com/NicciPotts">github</a></li>
+          
+          <li class="mb-3"><a class="text-dark" href="https://www.linkedin.com/in/nicci-potts-362b2b171/">linkedin</a></li>
+          
+        </ul>
+      </div>
+      <div class="col-lg-3 col-sm-6 mb-5">
+        <h6 class="mb-4">Categories</h6>
+        <ul class="list-unstyled">
+          <li class="mb-3"><a class="text-dark"
+              href="/categories/r">R</a>
+          </li>
+          <li class="mb-3"><a class="text-dark"
+              href="/categories/sport-physical-activity">Sport physical activity</a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-lg-3 col-sm-6 mb-5">
+        <h6 class="mb-4">Quick Links</h6>
+        <ul class="list-unstyled">
+          
+          <li class="mb-3"><a class="text-dark" href="https://niccipotts.netlify.app/about">About</a></li>
+          
+          <li class="mb-3"><a class="text-dark" href="https://niccipotts.netlify.app/blog">Blog</a></li>
+          
+          <li class="mb-3"><a class="text-dark" href="https://niccipotts.netlify.app/contact">Contact</a></li>
+          
+        </ul>
+      </div>
+      <div class="col-12 border-top py-4 text-center">
+        | copyright © 2021 <a href="https://themefisher.com/hugo-themes/">Themefisher</a> All Rights Reserved |
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script>
+  var indexURL = "https://niccipotts.netlify.app/index.json"
+</script>
+
+<!-- JS Plugins -->
+
+<script src="https://niccipotts.netlify.app/plugins/jQuery/jquery.min.js"></script>
+
+<script src="https://niccipotts.netlify.app/plugins/bootstrap/bootstrap.min.js"></script>
+
+<script src="https://niccipotts.netlify.app/plugins/slick/slick.min.js"></script>
+
+<script src="https://niccipotts.netlify.app/plugins/venobox/venobox.min.js"></script>
+
+<script src="https://niccipotts.netlify.app/plugins/search/fuse.min.js"></script>
+
+<script src="https://niccipotts.netlify.app/plugins/search/mark.js"></script>
+
+<script src="https://niccipotts.netlify.app/plugins/search/search.js"></script>
+
+<!-- Main Script -->
+
+<script src="https://niccipotts.netlify.app/js/script.min.js"></script>
+
+
+
+</body>
+</html>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>R on Nicci Potts | Blog</title>
+    <link>https://niccipotts.netlify.app/categories/r/</link>
+    <description>Recent content in R on Nicci Potts | Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 14 Sep 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://niccipotts.netlify.app/categories/r/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Census data for person centered design</title>
+      <link>https://niccipotts.netlify.app/blog/pollingstations/</link>
+      <pubDate>Tue, 14 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://niccipotts.netlify.app/blog/pollingstations/</guid>
+      <description>&lt;p&gt;Mapping census data in R to show how we can use data to put people at the heart of decision making.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Mapping social survey data</title>
+      <link>https://niccipotts.netlify.app/blog/pamapping/</link>
+      <pubDate>Fri, 03 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://niccipotts.netlify.app/blog/pamapping/</guid>
+      <description>&lt;p&gt;In this post I will breakdown creating maps from survey data in R, particularly focused on the Scottish Household Survey.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
